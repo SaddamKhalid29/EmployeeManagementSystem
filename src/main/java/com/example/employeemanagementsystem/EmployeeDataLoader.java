@@ -1,12 +1,12 @@
-package com.example.todoitem;
+package com.example.employeemanagementsystem;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.example.todoitem.model.Employee;
-import com.example.todoitem.repository.EmployeeRepo;
+import com.example.employeemanagementsystem.model.Employee;
+import com.example.employeemanagementsystem.repository.EmployeeRepo;
 
 @Configuration
 public class EmployeeDataLoader {

@@ -1,4 +1,4 @@
-package com.example.todoitem.controller;
+package com.example.employeemanagementsystem.controller;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.todoitem.model.Employee;
-import com.example.todoitem.service.EmployeeService;
+import com.example.employeemanagementsystem.model.Employee;
+import com.example.employeemanagementsystem.service.EmployeeService;
 
 @RestController
 @RequestMapping("/api/employee")

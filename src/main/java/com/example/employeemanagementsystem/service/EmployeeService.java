@@ -1,12 +1,12 @@
-package com.example.todoitem.service;
+package com.example.employeemanagementsystem.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.todoitem.model.Employee;
-import com.example.todoitem.repository.EmployeeRepo;
+import com.example.employeemanagementsystem.model.Employee;
+import com.example.employeemanagementsystem.repository.EmployeeRepo;
 
 @Service
 public class EmployeeService {
